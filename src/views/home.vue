@@ -8,7 +8,7 @@
           <div class="home-container3">
             <span class="heading5 home-text1">
               The Global crypto market cap is #1.55T.
-              <span v-html="rawzjpy"></span>
+              <span v-html="rawjj6t"></span>
             </span>
             <a
               href="https://example.com"
@@ -39,7 +39,9 @@
             coin_name="Ethereum"
             image_src="https://images.unsplash.com/photo-1621501103258-3e135c8c1fda?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
           ></coin-stats>
-          <coin-stats></coin-stats>
+          <coin-stats
+            image_src="https://images.unsplash.com/photo-1617004890839-25d5d8a9730d?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
+          ></coin-stats>
         </div>
       </div>
     </div>
@@ -61,7 +63,7 @@ export default {
 
   data() {
     return {
-      rawzjpy: ' ',
+      rawjj6t: ' ',
     }
   },
 
